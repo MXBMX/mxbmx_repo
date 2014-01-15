@@ -1,0 +1,151 @@
+body {
+    width: 100%;
+    background-image: url(../css/Background.gif);
+    background-repeat: repeat;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    color: black;
+}
+h1, h2, h3, h4, h5
+{
+    margin: 0;
+    font-family: Verdana, arial, helvetica, sans-serif;
+}
+#wrapper {
+    width: 777px;
+    margin: 0 auto;
+}
+
+/* Header-----------------------------------------------------------------------------*/
+#header {
+    background-image: url(../css/HeaderSBlT.gif);
+    background-repeat: no-repeat;
+    height: 155px;
+    width: 777px;
+}
+
+#title
+{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 122px;
+    color: #cc0033;
+    font-family: Tahoma, Verdana;
+    text-align: justify;
+
+}
+
+/* Middle-----------------------------------------------------------------------------*/
+#middle {
+    border-left: 280px solid silver;
+    height: 1%;
+    position: relative;
+    background-image: url(../css/content-repeat.png);
+    width: 497px;
+    padding-bottom: 110px;
+}
+#middle:after {
+    content: '.';
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+#container {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    margin-right: -95%;
+}
+#content {
+    padding: 25px 20px 20px;
+    /*background-color:White;*/
+}
+#content a:link
+{
+    color:#d61719;
+    text-decoration:none;
+}
+#content a:visited
+{
+    color:#980000;
+    text-decoration:none;
+}
+hr
+{
+    color: silver;
+}
+
+/* Sidebar Left-----------------------------------------------------------------------------*/
+#sideLeft {
+    float: left;
+    width: 230px;
+    position: relative;
+    left: -280px;
+    padding-top:20px;
+    padding-bottom:20px;
+    font-size: 90%;
+}
+
+/* Footer-----------------------------------------------------------------------------*/
+#footer {
+    height: 100px;
+    width: 777px;
+    background-image: url(../css/FooterPanel.gif);
+    background-repeat: no-repeat;
+}
+.footer
+{
+    font-size: 10px;
+    font-family: Tahoma, Verdana;
+    text-align: center;
+    color: background;
+
+}
+.nav
+{
+    position: relative;
+    text-align: center;
+    font-size: 8pt;
+    top: 5px;
+    font-family: Tahoma;
+
+}
+.copyright
+{
+    position: relative;
+    top: 31px;
+}
+/* Other-------------------------------------------------------------------------------*/
+.task-date
+{
+    font-size: 0.9em;
+    font-style: italic;
+    color: #3a6e9f;
+    font-family: Sans-Serif;
+}
+/*-JQueryUI--------------------------------------------------------------------------*/
+div.ui-datepicker
+{
+    font-size: 90%;
+}
+input.ui-button
+{
+    font-size: 85%;
+    padding: 0.3em 1em;
+    color:#d61719;
+}
+.ui-widget
+{
+    font-family: Arial,sans-serif;
+    font-size: 0.9em;
+}
+.ui-dialog
+{
+    font-size: 90% !important;
+}
+.ui-widget .ui-widget
+{
+    font-size: 0.85em !important;
+}
