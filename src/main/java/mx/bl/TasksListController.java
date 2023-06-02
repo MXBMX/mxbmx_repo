@@ -1,7 +1,3 @@
-/**
- * @fileoverview Файл содержит класс контроллера приложения
- * @author Баглай М.В.
- */
 package mx.bl;
 
 import org.springframework.beans.propertyeditors.CustomDateEditor;
@@ -13,9 +9,7 @@ import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
-import javax.annotation.Resource;
 import javax.servlet.http.HttpSession;
-import javax.servlet.http.HttpServletResponse;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;

@@ -1,7 +1,3 @@
-/**
- * @fileoverview Файл содержит класс генератора ID для объектов Task
- * @author Баглай М.В.
- */
 package mx.bl;
 
 //Singletone

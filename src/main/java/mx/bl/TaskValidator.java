@@ -1,7 +1,3 @@
-/**
- * @fileoverview Файл содержит класс валидатора на server-side
- * @author Баглай М.В.
- */
 package mx.bl;
 
 import org.springframework.validation.Errors;

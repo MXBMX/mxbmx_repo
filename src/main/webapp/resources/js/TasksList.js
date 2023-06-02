@@ -92,7 +92,7 @@ $(function(){
             longw = 'Words in Name is too long!',
             i = 0, j=0, k = 0;
 
-        if (val == '')
+        if (val === '')
             return empty;
 
         for(;i!=-1;){

@@ -1,8 +1,3 @@
-/**
- * @fileoverview Файл содержит класс задачи
- * @author Баглай М.В.
- */
-
 package mx.bl;
 
 public class Task implements Comparable {
